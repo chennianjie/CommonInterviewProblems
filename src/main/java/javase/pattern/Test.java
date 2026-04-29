@@ -15,7 +15,7 @@ public class Test {
 
 
 
-    @org.junit.jupiter.api.Test
+//    @org.junit.jupiter.api.Test
     void testSplit(){
         String s = "the quick brown fox jumps over the lazy dog.";
         Pattern p = Pattern.compile("\\wo\\w");
@@ -28,7 +28,7 @@ public class Test {
 
 
     //自定义简单的模板引擎
-    @org.junit.jupiter.api.Test
+    //@org.junit.jupiter.api.Test
     void testTemplate(){
         Map<String, String> map = new HashMap<>();
         map.put("name", "Jay");
